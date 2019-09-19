@@ -1,0 +1,34 @@
+{
+  "name": "bookshelf-api-express-firestore",
+  "version": "1.0.0",
+  "description": "Bookshelf API using Express.js and Google Cloud Firestore",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symplcloud/bookshelf-api-express-firestore.git"
+  },
+  "keywords": [
+    "Cloud",
+    "Firestore"
+  ],
+  "author": "Sean Lee <yihsean@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symplcloud/bookshelf-api-express-firestore/issues"
+  },
+  "homepage": "https://github.com/symplcloud/bookshelf-api-express-firestore#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^2.2.6",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1",
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.3.0"
+  }
+}
