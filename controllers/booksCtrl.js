@@ -65,9 +65,9 @@ exports.add = function(req, res) {
 
 exports.update = function(req, res) {
   booksRef.doc(req.params.id).set(req.body)
-    .then(docRef => {
-      return docRef.get();
-    })
+    // .then(docRef => {
+    //   return docRef.get();
+    // })
     .then(doc => {
       res.json({id: doc.id, ...doc.data()});
     })
