@@ -8,7 +8,7 @@ app.use('/books', booksRouter);
 
 // Redirect root to /books
 app.get('/', (req, res) => {
-  res.send(200);
+  res.sendStatus(200);
 });
 
 // Basic 404 handler

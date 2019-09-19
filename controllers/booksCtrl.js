@@ -83,7 +83,7 @@ exports.update = function(req, res) {
 exports.delete = function(req, res) {
   booksRef.doc(req.params.id).delete()
     .then(() => {
-      res.send(200);
+      res.sendStatus(200);
     })
     .catch(err => {
       logger.debug('Error deleting document', err);
