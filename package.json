@@ -26,7 +26,7 @@
     "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
     "express": "^4.17.1",
-    "nconf": "^0.10.0"
+    "nconf": "^0.11.4"
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "^3.3.0"
